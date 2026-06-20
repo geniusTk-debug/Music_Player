@@ -1,10 +1,12 @@
 
 
+
 import './index.css';
-export default function PlayList({tracks, loading}) {
+export default function PlayList({tracks, loading, playSongF, play_song}) {
+
 
   return (
-    <>
+    (!play_song && <>
     {loading && <div>loading</div>}
     {!loading && <div className='playlistComponent'>
 
@@ -19,7 +21,8 @@ export default function PlayList({tracks, loading}) {
                   {prevState.title}
                 
                 <li className='info'>{prevState.singer}</li>
-                <li className='info'>{prevState.availiableLyrics}</li>           
+                <li className='info'>{prevState.availiableLyrics}</li>    
+                <button onClick={() => playSongF(prevState)}>Play</button>       
                 {prevState.availableLyrics && <li className='info'>Lyric : Available</li>}
 
               </div>
@@ -29,5 +32,5 @@ export default function PlayList({tracks, loading}) {
 
         </ul>
     </div>}
-    </>
+    </>)
   )}

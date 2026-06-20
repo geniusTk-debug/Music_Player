@@ -4,12 +4,13 @@ import './App.css';
 import Logo from './Component/Logo';
 import NavBar from './Component/NavBar';
 import PlayList from './MusicPlayer/PlayList';
+import PlaySong from './MusicPlayer/PlaySong';
 
 function App() {
 
   const[url, seturl] = useState ('http://localhost:3002/tracks');
 
-  let {tracks, updateTracks, loading } = useFetch(url)
+  let {tracks, updateTracks, loading, playSongF, play_song, selected_song} = useFetch(url)
   
 console.log(url)
 
@@ -17,8 +18,8 @@ console.log(url)
     <>
     <Logo/>
     <NavBar url={url} seturl={seturl}/>
-   <PlayList tracks={tracks} updateTracks={updateTracks} loading={loading}/>
-
+    <PlayList tracks={tracks} updateTracks={updateTracks} loading={loading} playSongF={playSongF} play_song={play_song}/>
+    <PlaySong selected_song={selected_song}/>
 
 
     </>
