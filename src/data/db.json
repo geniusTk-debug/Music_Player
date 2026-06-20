@@ -1,0 +1,158 @@
+{
+    "tracks" : [
+    {
+      "id": 1,
+      "title": "What If I Told You That I Love You",
+      "singer": "Ali Gatie" ,
+      "img": " https://cdn-images.dzcdn.net/images/cover/b7031f1ea143b58304d1af7ca3778d66/500x500-000000-80-0-0.jpg" ,
+      "availableLyrics": true,
+      "src": " /Tracks/Ali Gatie - What If I Told You That I Love You.mp3" 
+    },
+
+    {
+      "id": 2,
+      "title": "Arcade",
+      "singer": "Shania Yan" ,
+      "img": " https://tinyurl.com/yumcbna3" ,
+      "availableLyrics": true,
+      "src":" /Tracks/Arcade - Duncan Laurence _ Shania Yan Cover.mp3" 
+    },
+
+    {
+      "id": 3,
+      "title": "As Long As You Love Me",
+      "singer": "Shania Yan" ,
+      "img": " https://i.pinimg.com/736x/37/f4/49/37f449dc0abd34d2d39f57093308f071.jpg" ,
+      "availableLyrics": true,
+      "src": " /Tracks/Backstreet Boys - As Long As You Love Me  Shania Yan Cover - Shania Yan.mp3" 
+    },
+
+    {
+      "id": 4,
+      "title": "Chit Nay Pho Pl Lo Tal",
+      "singer": "Htet Yan/ Than Thar Moe Theint" ,
+      "img": " https://i.pinimg.com/736x/ea/dd/44/eadd443603d3728ec51e22f5220664f5.jpg" ,
+      "availableLyrics": false,
+      "src": " /Tracks/Chit Nay Pho Pl Lo Tal - Htet Yan.mp3" 
+    },
+
+    {
+      "id": 5,
+      "title": "Everytime",
+      "singer": "Shania Yan" ,
+      "img": " https://i.pinimg.com/1200x/9d/ed/70/9ded703afff0651323b86b4f655aeef1.jpg" ,
+      "availableLyrics": true,
+      "src": "/Tracks/Everytime - Britney Spears - Shania Yan Cover.mp3" 
+    },
+
+    {
+      "id": 6,
+      "title": "Cherry Wine",
+      "singer": "JAZZ3" ,
+      "img": " https://i.pinimg.com/736x/fa/7c/2f/fa7c2facb7d4e3842e374a14be7b9fd1.jpg" ,
+      "availableLyrics": false,
+      "src": "/Tracks/JAZZ3-Cherry Wine.mp3" 
+    },
+
+    {
+      "id": 7,
+      "title": "Believe",
+      "singer": "Justin Bieber" ,
+      "img": " https://i.pinimg.com/736x/96/db/18/96db18b99409b3b52f80eaad38bcfdc9.jpg" ,
+      "availableLyrics": true,
+      "src": "/Tracks/Justin Bieber - Believe (Lyrics) [HD].mp3" 
+    },
+
+    {
+      "id": 8,
+      "title": "အသည်းကွဲသီချင်းသစ်",
+      "singer": "May" ,
+      "img": " https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c8/33/d0/c833d0cd-fada-48e3-e6db-c13ca2d8778a/8721056357383.png" ,
+      "availableLyrics": false,
+      "src": "/Tracks/May - အသည်းကွဲသီချင်းသစ် (Lyrics).mp3" 
+    },
+
+    {
+      "id": 9,
+      "title": "Night Changes",
+      "singer": "Shania Yan" ,
+      "img": " https://i.pinimg.com/736x/07/25/21/072521d1cdd674ec281bcc25b0b734d9.jpg" ,
+      "availableLyrics": true,
+      "src": "/Tracks/Night Changes - One Direction - Shania Yan Cover.mp3" 
+    },
+
+    {
+      "id": 10,
+      "title": "Only Love",
+      "singer": "Shania Yan" ,
+      "img": " https://i.pinimg.com/736x/07/25/21/072521d1cdd674ec281bcc25b0b734d9.jpg" ,
+      "availableLyrics": false,
+      "src": "/Tracks/Only Love - Trademark - Shania Yan Cover.mp3" 
+    },
+
+    {
+      "id": 11,
+      "title": "Sunshine in the Rain",
+      "singer": "Shania Yan" ,
+      "img": " https://i.pinimg.com/736x/07/25/21/072521d1cdd674ec281bcc25b0b734d9.jpg" ,
+      "availableLyrics": true,
+      "src": "/Tracks/Shania Yan - Sunshine in the Rain (Official Lyric Video).mp3" 
+    },
+
+    {
+      "id": 12,
+      "title": "Where The Wind Takes Me",
+      "singer": "Shania Yan" ,
+      "img": " https://i.pinimg.com/736x/07/25/21/072521d1cdd674ec281bcc25b0b734d9.jpg" ,
+      "availableLyrics": true,
+      "src": "/Tracks/Shania Yan - Where The Wind Takes Me (Official Music Video).mp3" 
+    },
+
+    {
+      "id": 13,
+      "title": "Somewhere Only We Know",
+      "singer": "Shania Yan" ,
+      "img": " https://i.pinimg.com/736x/07/25/21/072521d1cdd674ec281bcc25b0b734d9.jpg" ,
+      "availableLyrics": true,
+      "src": "/Tracks/Somewhere Only We Know - Keane - Shania Yan Cover.mp3" 
+    },
+
+    {
+      "id": 14,
+      "title": "Stay",
+      "singer": "Hsu Rinna" ,
+      "img": " https://i.pinimg.com/736x/07/25/21/072521d1cdd674ec281bcc25b0b734d9.jpg" ,
+      "availableLyrics": false,
+      "src": "/Tracks/stay. - Hsu Rinaa (Official Visualizer ).mp3" 
+    },
+
+    {
+      "id": 15,
+      "title": "Take Me To Your Heart",
+      "singer": "Michael Learns To Rock" ,
+      "img": " https://i.pinimg.com/736x/07/25/21/072521d1cdd674ec281bcc25b0b734d9.jpg" ,
+      "availableLyrics": true,
+      "src": "/Tracks/Take Me To Your Heart - Michael Learns To Rock (Lyrics).mp3" 
+    },
+
+    {
+      "id": 16,
+      "title": "Up",
+      "singer": "Justin Bieber" ,
+      "img": " https://i.pinimg.com/736x/07/25/21/072521d1cdd674ec281bcc25b0b734d9.jpg" ,
+      "availableLyrics": true,
+      "src": "/Tracks/Up - Justin Bieber + Lyrics (My World 2.0 Studio Version) - Justin Bieber.mp3" 
+    },
+
+    {
+      "id": 17,
+      "title": "Give Me Your Forever",
+      "singer": "Zack Tabudlo" ,
+      "img": " https://i.pinimg.com/736x/07/25/21/072521d1cdd674ec281bcc25b0b734d9.jpg" ,
+      "availableLyrics": true,
+      "src": "/Tracks/Zack Tabudlo - Give Me Your Forever (Lyric Video).mp3" 
+    }
+    
+    
+ ]
+}

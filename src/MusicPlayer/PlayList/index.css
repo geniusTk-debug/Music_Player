@@ -1,0 +1,42 @@
+.playlistComponent
+ {
+
+    display: flex;
+    justify-content: center;
+
+ }
+
+.playlistComponent
+ .songsList
+ {
+
+    max-width: 1200px;
+    display: flex;
+    flex-direction:column;
+    margin: 10px 5px;
+    color: lightcoral;
+    cursor: pointer;
+    border-bottom: 1px dashed lightcoral;
+
+ }
+
+.playlistComponent
+ .songsList
+  .album-cover
+  {
+   max-width: 120px;
+   max-height: 200px;
+   flex: 1;
+   
+  }
+
+.playlistComponent
+ .songsList
+  .info
+ {
+    
+    display: flex;
+    margin: 10px 0;
+    
+    
+ }

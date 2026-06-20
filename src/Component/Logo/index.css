@@ -1,0 +1,15 @@
+.logo_container {
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+}
+.logo_container ul{
+    
+    margin: auto;
+
+}
+
+.logo_container li{
+    display: flex;
+}

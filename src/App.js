@@ -1,24 +1,28 @@
-import logo from './logo.svg';
+import { useState } from 'react';
+import useFetch from './Hook/useFetch';
 import './App.css';
+import Logo from './Component/Logo';
+import NavBar from './Component/NavBar';
+import PlayList from './MusicPlayer/PlayList';
 
 function App() {
+
+  const[url, seturl] = useState ('http://localhost:3002/tracks');
+
+  let {tracks, updateTracks, loading } = useFetch(url)
+  
+console.log(url)
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Logo/>
+    <NavBar url={url} seturl={seturl}/>
+   <PlayList tracks={tracks} updateTracks={updateTracks} loading={loading}/>
+
+
+
+    </>
+   
   );
 }
 

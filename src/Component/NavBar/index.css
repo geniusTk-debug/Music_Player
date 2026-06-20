@@ -1,0 +1,84 @@
+.navBar-Component .navBar-container {
+    
+    background-color: transparent;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    box-shadow: 1px 1px  9px 1px lightcoral inset;
+    
+}
+/*
+.navBar-Component .navBar-container:hover {
+    background-color: lightcoral;
+}
+    */
+
+.navBar-Component .navBar-container ul {
+
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    
+}
+.navBar-Component .navBar-container li{
+   
+    color: lightcoral;
+    font-size: larger;
+    border-left: 1px dashed black;
+    padding: 5px 10px;
+    display: inline-block;
+    margin-top: 1px;
+
+}
+
+.navBar-container li:hover {
+  
+    border-top: 1px solid lightcoral;
+    margin: 0;
+    color: white;
+    background-color: #f00bc294;
+}
+
+.navBar-Component .navBar-container .slider {
+
+    background-color: lightcoral;
+    height: 2px;
+    transition: transform 0.5s ease-in-out;
+    
+}
+
+.playlist-menu {
+    margin: 10px;
+    color: lightcoral;
+    display: flex;
+    justify-content: center;
+    
+}
+.playlist-menu select {
+    
+    margin-top: 17px;
+    margin-left: 12px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: lightcoral;
+    font-size: 14px;
+    box-shadow: 1px 0 5px lightcoral inset;
+}
+.playlist-menu select option {
+
+    color: lightcoral;
+    background-color: #1F2020;
+    
+   
+    font-style:oblique;
+    
+}
+
+
+
+
