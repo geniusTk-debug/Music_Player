@@ -1,0 +1,95 @@
+.playlistComponent
+ {
+
+    display: flex;
+    justify-content: center;
+
+ }
+
+.playlistComponent
+ .songsList
+ {
+
+    max-width: 1200px;
+    font-style: italic;
+    display: flex;
+    flex-direction:column;
+    margin: 10px 5px;
+    color: lightcoral;
+   
+    border-bottom: 1px dashed lightcoral;
+
+ }
+
+.playlistComponent
+ .songsList
+  .album-cover
+  {
+   
+   max-height: 150px;
+   display: flex;
+   margin: 0 auto;
+   cursor: pointer;
+   border-radius: 5px;
+   border: 1.5px solid lightcoral;
+   margin-bottom: 5px;
+   
+  }
+
+.playlistComponent
+ .songsList
+  .info
+ {
+    
+    display: flex;
+    margin: 10px 0px 5px 10px;
+    
+    
+ }
+.playlistComponent
+ .songsList
+  .i-color {
+
+   color: #1F2020;
+   background-color: lightcoral;
+   border-radius: 10px;
+   margin-right: 2px;
+
+ }
+.playlistComponent
+ .songsList
+   button {
+  
+   margin: 15px 0;  
+   border: 0; 
+   width: 100px;
+   align-self: center;
+   background-color: transparent;
+   display: flex;
+   justify-content: center;
+   color: pink;
+   font-size: 15px;
+   border-radius: 5px;
+   cursor: pointer;
+
+ }
+
+ .playlistComponent
+ .songsList
+   button:hover
+   {
+      box-shadow: 0px 0px 5px pink;
+   }
+
+.playlistComponent
+ .songsList
+   button
+ .i-hover:hover{
+
+   box-shadow: 0px 10px 10px pink inset;
+   border-radius: 3px;
+   color: lightcoral;
+   
+ }
+
+ 

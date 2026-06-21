@@ -1,5 +1,6 @@
 import React from 'react'
 import './index.css';
+import Player from '../Player/index'
 
 
 export default function PlaySong({selected_song}) {
@@ -14,7 +15,7 @@ export default function PlaySong({selected_song}) {
         <span>{selected_song.title}</span>
         <span>{selected_song.singer}</span>
         <button>Click to see lyric</button>
-        <p>Playing..., Audio Element, Custom buttons/Progress Bar(coming soon..)</p>
+        <Player/>
     </div>
   )
 }

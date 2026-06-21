@@ -20,7 +20,7 @@ export default function NavBar({url, seturl}) {
        }
     }
 
-    let [tabs, tabsMenu] = useState ([
+    let [tabsMenu, setTabsMenu] = useState ([
         {
             id: 1,
             text: 'Home',
@@ -72,7 +72,7 @@ export default function NavBar({url, seturl}) {
     <nav className='navBar-Component'>
         <div className='navBar-container'>
            <ul>
-            {tabs.map((tab => (
+            {tabsMenu.map((tab => (
                 <div className='single-tab' key={tab.id} >
                  
                 <li onClick={tabsHandler}>

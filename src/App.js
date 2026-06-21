@@ -3,8 +3,9 @@ import useFetch from './Hook/useFetch';
 import './App.css';
 import Logo from './Component/Logo';
 import NavBar from './Component/NavBar';
-import PlayList from './MusicPlayer/PlayList';
-import PlaySong from './MusicPlayer/PlaySong';
+import PlayList from './Component/PlayList';
+import PlaySong from './Component/PlaySong';
+
 
 function App() {
 
@@ -20,6 +21,8 @@ console.log(url)
     <NavBar url={url} seturl={seturl}/>
     <PlayList tracks={tracks} updateTracks={updateTracks} loading={loading} playSongF={playSongF} play_song={play_song}/>
     <PlaySong selected_song={selected_song}/>
+    
+
 
 
     </>
